@@ -13,7 +13,7 @@ public class Producto {
         this.tipo = tipo;
     }
 
-    void imprimirNombre() {
+    public void imprimirNombre() {
         System.out.print(nombre);
     }
 

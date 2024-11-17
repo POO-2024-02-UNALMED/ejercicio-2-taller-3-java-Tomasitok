@@ -34,7 +34,7 @@ public class ObjTaller3 {
         System.out.println(emp2.cedula + " va a retirar producto");
         orden2.retirarProducto(emp2, p4);
         System.out.println(Producto.getTotalProductosPedidos());
-        orden2.retirarProducto(null, p2);
+        orden2.retirarProducto(emp1, p2);
         System.out.println(Producto.getTotalProductosPedidos());
     }
 }
